@@ -1,7 +1,25 @@
 aid: babycare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/babycare.png
 name: Babycare
-description: 'Babycare is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Babycare is a Chinese mother-and-baby (母婴) consumer brand offering a broad
+  range of maternity and infant-care products, including diapers, wipes, strollers, baby carriers,
+  feeding bottles, toys, and maternal care goods. It operates primarily as a direct-to-consumer
+  brand, selling through major Chinese e-commerce marketplaces (Tmall, JD.com, Douyin) alongside
+  its own channels and offline retail, and is one of the leading new-generation mother-baby brands
+  in China. Babycare is backed by venture investor Hongshan (formerly Sequoia Capital China). This
+  profile is a consumer-brand entry in the API Evangelist network; no public developer API surface
+  has been identified for this provider.'
 url: https://raw.githubusercontent.com/api-evangelist/babycare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Maternity
+- Baby Products
+- Consumer Goods
+- E-commerce
+- Retail
+- Direct-to-Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://babycare.cn
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
