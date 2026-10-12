@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/babycare/integrations
+- https://n8n.io/integrations/babycare/
+- https://composio.dev/toolkits/babycare
+- https://monid.ai/tools/babycare
+checked:
+- https://composio.dev/toolkits/babycare
+- https://monid.ai/tools/babycare
+- https://n8n.io/integrations/babycare/
+- https://zapier.com/apps/babycare/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
